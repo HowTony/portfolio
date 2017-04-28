@@ -10,10 +10,12 @@
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #434343;
-  background: #DAE3E7;
+  background: #1f2a3f;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
 }
 h1,
 h2,
@@ -26,7 +28,7 @@ h6 {
   color: #778492;
 }
 a {
-  color: #3AAA64;
+  color: #495ad8;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -35,7 +37,7 @@ a {
 a:hover {
   text-decoration: underline;
   color: #5f6b77;
-  color: #2d844e;
+  color: #365184;
 }
 a:focus {
   text-decoration: none;
@@ -60,7 +62,7 @@ a.btn:focus {
 }
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: #54ba4e;
+  background: #2d45ba;
   border: 1px solid #54ba4e;
   color: #fff;
   font-weight: 600;
@@ -117,8 +119,8 @@ iframe {
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #f5f5f5;
-  border-top: 10px solid #778492;
+  background: #b7c7ea;
+  border-top: 10px solid #1f2a3f;
 }
 .header .btn {
   margin-top: 60px;
@@ -140,6 +142,7 @@ iframe {
   font-size: 24px;
   margin-top: 0;
   margin-bottom: 15px;
+  
 }
 .header .profile-content .social a {
   background: #b0b7bf;
@@ -234,7 +237,7 @@ iframe {
   position: relative;
 }
 .latest .featured-image .text {
-  background: #3AAA64;
+  background: #2952aa;
   color: #fff;
 }
 .latest .featured-image .ribbon {
@@ -377,11 +380,11 @@ iframe {
 }
 .skills .skillset .level-bar {
   height: 15px;
-  background: #e8e8e8;
+  background: #b2b2b2;
 }
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #66cb8c;
+  background: #4c60cb;
 }
 /* Testimonials section */
 .testimonials .item {
@@ -391,13 +394,13 @@ iframe {
   margin-bottom: 0;
 }
 .testimonials .item .quote {
-  color: #666;
+  color: #616161;
   font-size: 16px;
-  border-left-color: #9fdeb7;
+  border-left-color: #4c60cb;
   margin-bottom: 15px;
 }
 .testimonials .item .quote .fa {
-  color: #79d19a;
+  color: #4c60cb;
   margin-right: 15px;
 }
 .testimonials .item .source {
